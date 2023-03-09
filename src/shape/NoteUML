@@ -1,0 +1,23 @@
+Circle Class
+    properties:
+        float radius;
+        String color;
+        float area;
+    constructor
+        Circle ()
+        Circle (radius, color);
+    methods:
+        getter & setter: radius, color, area; (area = Pi*r^2)
+
+
+
+Cylinder Class extends Circle
+    properties
+        float height;
+        float volume;
+
+    constructor
+        Cylinder ()
+        Cylinder (radius, color, height)
+    methods:
+        getter & setter: height, volume; (volume = supper.getArea() * height;
